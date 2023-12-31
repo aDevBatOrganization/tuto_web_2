@@ -1,0 +1,79 @@
+header {
+    background-image: url(./a_dev_96_96.png);
+}
+.first-title {
+    color: yellow;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#underline{
+    text-decoration: underline;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+/* commentaire */
+
+
+.first-item {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-item {
+    min-width: 80px;
+    min-height: 80px;
+    background-color: yellow;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+.third-item {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: darkblue;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 5rem auto;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+input {
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+    min-height: 50px;
+    max-width: 280px;
+    min-width: 280px;
+}
